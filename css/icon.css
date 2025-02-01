@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+.iconfont {
+    width: 2.4vw;
+    height: 2.4vw;
+    background-size: 100% 100%;
+}
+
+.techno-iconfont {
+    width: 3vw;
+    height: 3vw;
+    margin-left: 0.8vw;
+    background-size: 100% 100%;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+.techno-iconfont:hover {
+    transform: translateY(-10px) scale(1.01,1.01);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.icon-home {
+    background-image: url("../icon/home.png");
+}
+
+.icon-me {
+    background-image: url("../icon/me.png");
+}
+
+.icon-record {
+    background-image: url("../icon/record.png");
+}
+
+.icon-switch {
+    background-image: url("../icon/game.png");
+}
+
+.icon-project {
+    background-image: url("../icon/project.png");
+}
+
+.icon-contact {
+    background-image: url("../icon/contact.png");
+}
+
+.icon-js {
+    background-image: url("../icon/js.png");
+}
+
+.icon-html {
+    background-image: url("../icon/html.png");
+}
+
+.icon-css {
+    background-image: url("../icon/css.png");
+}
+
+.icon-c {
+    background-image: url("../icon/c++.png");
+}
+
+.icon-python {
+    background-image: url("../icon/python.png");
+}
+
+.icon-java {
+    background-image: url("../icon/java.png");
+}
+
+.icon-ai {
+    background-image: url("../icon/Ai.png");
+}
+
+.icon-mysql {
+    background-image: url("../icon/Mysql.png");
+}
+
+.icon-office {
+    background-image: url("../icon/office.png");
+}
+
+.icon-vue {
+    background-image: url("../icon/vue.png");
+}
+
+.icon-birth {
+    background-image: url("../icon/birthday.png");
+}
+
+.icon-college {
+    background-image: url("../icon/college.png");
+}
+
+.icon-mbti {
+    background-image: url("../icon/mbti.png");
+}
+
+.icon-signature {
+    background-image: url("../icon/signature.png");
+}
+
+.icon-qq {
+    background-image: url("../icon/QQ.png");
+}
+
+.icon-weixin {
+    background-image: url("../icon/weixin.png");
+}
+
+.icon-github {
+    background-image: url("../icon/github.png");
+}
+
+.icon-bilibili {
+    background-image: url("../icon/bilibili.png");
+}
+
+.icon-email {
+    background-image: url("../icon/email.png");
+}
+
+.icon-kugou {
+    background-image: url("../icon/kugou.png");
+}
+
+.icon-drag {
+    position: absolute;
+    height: 0.2vw; 
+    width: 3.3vw;
+    background-image: url("../icon/Drag.png");
+}
+
+.icon-hold {
+    position: absolute;
+    height: 1vw; 
+    width: 3.3vw;
+    background-image: url("../icon/Hold.png");
+}
+
+.icon-flick {
+    position: absolute;
+    height: 0.67vw; 
+    width: 3.3vw;
+    background-image: url("../icon/Flick.png");
+}
+
+.icon-tap {
+    position: absolute;
+    height: 0.33vw; 
+    width: 3.3vw;
+    background-image: url("../icon/Tap.png");
+}
