@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+.game-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.game-container::before {
+    content: '';
+    position: absolute;
+    width: 120vw;
+    height: 120vh;
+    background-image: linear-gradient(80deg, #1b0243 0%,
+    #000000 22%, #1e0123 100%);
+    z-index: -999;
+}
+
+.cassette-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 74vw;
+    height: 48vh;
+    left: 15vw;
+    top: 1vh;
+}
+
+.cassette-container .cassettes {
+    position: relative;
+    list-style-type: none;
+    width: 100%;
+    height: 92%;
+}
+
+.cassette-container .cassettes li {
+    float: left;
+    height: 100%;
+    width: 4vw;
+    border: 0.1vw solid rgb(90, 16, 140);
+    border-radius: 0.5vw;
+    position: relative; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    transition: 0.5s;
+}
+
+.cassette-container .cassettes li:hover {
+    transform: translateY(-1.5vw);
+}
+
+.gameImg {
+    width: 3vw;
+    height: 3vw;
+    background-size: 100% 100%;
+    border-radius: 20%;
+    background-image: url("../image/game1.png");
+    margin-bottom: 0.8vw;
+    margin-top: 0.2vw;
+}
+
+.gameTitle {
+    flex: 1; 
+    margin-bottom: 3.4vw;
+    font-size: 1.5vw;
+    letter-spacing: 0.2vw;
+    display: flex; 
+    align-items: center; 
+    writing-mode: vertical-rl; /* 文字竖向排布 */
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    overflow: hidden;
+    cursor: default;
+}
+
+.platform {
+    position: absolute;
+    bottom: 0; 
+    width: 3.4vw;
+    height: 3.4vw;
+    background-size: 100% 100%;
+}
+
+.palytable-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 50vh;
+    left: 12vw;
+    top: 48vh;
+}
+
+.playtable-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 24vw;
+    border: 1px solid rgb(54, 69, 203);
+}
+
+.playtable-body {
+    width: 97%;
+    height: 94%;
+    border: 1px solid rgb(203, 54, 151);
+}
+
+.joycon-l {
+    width: 7.6vw;
+    height: 24vw;
+    background-image: url("../image/joycon-l.png");
+    background-size: 100% 100%;
+}
+
+.joycon-r {
+    width: 7.6vw;
+    height: 24vw;
+    background-image: url("../image/joycon-r.png");
+    background-size: 100% 100%;
+}
